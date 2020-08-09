@@ -1,0 +1,3 @@
+com\stackOverflow\qa\testcases\StackOverFlowPageTest.class
+com\stackOverflow\qa\testcases\TagsPageTest.class
+com\stackOverflow\qa\testcases\QuestionsPageTest.class
