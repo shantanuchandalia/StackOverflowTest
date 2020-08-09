@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 4, Errors: 0, Skipped: 6, Time elapsed: 26.028 s <<< FAILURE! - in TestSuite
-com.stackOverflow.qa.testcases.TagsPageTest.setup  Time elapsed: 10.388 s  <<< FAILURE!
-java.lang.StackOverflowError
-
-com.stackOverflow.qa.testcases.QuestionsPageTest.setup  Time elapsed: 10.388 s  <<< FAILURE!
-java.lang.StackOverflowError
-
-com.stackOverflow.qa.testcases.TagsPageTest.setup  Time elapsed: 0 s  <<< FAILURE!
-java.lang.StackOverflowError
-
-com.stackOverflow.qa.testcases.StackOverFlowPageTest.CheckNavigationToBrowseQuestion  Time elapsed: 0 s  <<< FAILURE!
-java.lang.StackOverflowError
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 73.473 s - in TestSuite

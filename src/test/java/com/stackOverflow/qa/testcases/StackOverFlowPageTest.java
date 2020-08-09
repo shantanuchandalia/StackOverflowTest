@@ -28,14 +28,14 @@ public class StackOverFlowPageTest extends TestBase{
 		stackoverflowpage = new StackOverflowPage();
 	}
 	
-	@Test(priority = 1)
+	@Test(description = "Verify the Title of Stack Overflow")
 	public void StackOverflowPageTitleTest()
 	{
 		String title = stackoverflowpage.validateStackOverFlowTitle();
 		Assert.assertEquals(title, "Stack Overflow - Where Developers Learn, Share, & Build Careers" );
 	}
 	
-	@Test(priority = 2)
+	@Test(description = "Verify navigation to Questions Page")
 	public void CheckNavigationToBrowseQuestion()
 	{
 		questionsPage = stackoverflowpage.BrowseQuestion();

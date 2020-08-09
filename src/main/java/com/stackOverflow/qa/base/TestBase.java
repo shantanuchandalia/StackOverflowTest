@@ -84,6 +84,11 @@ public class TestBase {
 		wait = new WebDriverWait(driver, 20);
 		
 		driver.get(properties.getProperty("url"));
+	}
 
+
+	public WebDriver getDriver() {
+		// TODO Auto-generated method stub
+		return driver;
 	}
 }

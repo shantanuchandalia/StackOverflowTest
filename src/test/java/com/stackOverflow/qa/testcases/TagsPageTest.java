@@ -35,20 +35,22 @@ public class TagsPageTest extends TestBase{
 		tagsPage.tagByName(); //Sorting by Name is a preliminary step here for both the tests
 	}
 	
-	@Test
+	@Test(description = "Verify if Tag names are sorted when we click on Name filter")
 	public void checkIftagsByNameSuccessful()
 	{	
 		Assert.assertTrue(tagsPage.checkIftagsByNameSuccessful(), "The tags could not be sorted by Name properly.");
 	}
 	
-	@Test
+	@Test(description = "Verify that the tag with Maximum number of questions is <.htaccess> and prints it in the console")
 	public void getTagNameWithMaxQuestions()
 	{
 		tagsPage.getTagsKeyValue();
 		String key = tagsPage.getkeyWithMaxValue();
 		Assert.assertEquals(key, ".htaccess" );
+		System.out.println();
 		System.out.println("Key with Maximum value : " + tagsPage.getkeyWithMaxValue()) ;
 		System.out.println("Maximum value : " +tagsPage.getMaxValue());
+		System.out.println();
 	}
 	
 	@AfterMethod

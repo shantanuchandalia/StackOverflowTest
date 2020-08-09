@@ -30,7 +30,7 @@ public class QuestionsPageTest extends TestBase{
 	}
 	
 	
-	@Test
+	@Test(description = "Verify navigation to Tags Page")
 	public void checkNavigationToTags()
 	{
 		tagsPage = questionsPage.navigateToTags();
