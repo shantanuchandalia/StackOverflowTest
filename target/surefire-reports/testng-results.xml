@@ -1,77 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="StackOverflow Automation Test Suite" duration-ms="72329" started-at="2020-08-09T16:28:40 IST" finished-at="2020-08-09T16:29:53 IST">
+  <suite name="StackOverflow Automation Test Suite" duration-ms="27717" started-at="2020-08-10T19:56:49 IST" finished-at="2020-08-10T19:57:16 IST">
     <groups>
     </groups>
-    <test name="Regression Suite" duration-ms="72329" started-at="2020-08-09T16:28:40 IST" finished-at="2020-08-09T16:29:53 IST">
-      <class name="com.stackOverflow.qa.testcases.QuestionsPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.stackOverflow.qa.testcases.QuestionsPageTest@5abca1e0]" name="setup" is-config="true" duration-ms="12230" started-at="2020-08-09T16:29:04 IST" finished-at="2020-08-09T16:29:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checkNavigationToTags()[pri:0, instance:com.stackOverflow.qa.testcases.QuestionsPageTest@5abca1e0]" name="checkNavigationToTags" duration-ms="917" started-at="2020-08-09T16:29:16 IST" description="Verify navigation to Tags Page" finished-at="2020-08-09T16:29:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkNavigationToTags -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stackOverflow.qa.testcases.QuestionsPageTest@5abca1e0]" name="tearDown" is-config="true" duration-ms="646" started-at="2020-08-09T16:29:17 IST" finished-at="2020-08-09T16:29:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.stackOverflow.qa.testcases.QuestionsPageTest -->
+    <test name="Regression Suite" duration-ms="27717" started-at="2020-08-10T19:56:49 IST" finished-at="2020-08-10T19:57:16 IST">
       <class name="com.stackOverflow.qa.testcases.StackOverFlowPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@3632be31]" name="setup" is-config="true" duration-ms="8255" started-at="2020-08-09T16:28:40 IST" finished-at="2020-08-09T16:28:49 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@6fc6f14e]" name="setup" is-config="true" duration-ms="9350" started-at="2020-08-10T19:56:49 IST" finished-at="2020-08-10T19:56:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CheckNavigationToBrowseQuestion()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@3632be31]" name="CheckNavigationToBrowseQuestion" duration-ms="4547" started-at="2020-08-09T16:28:49 IST" description="Verify navigation to Questions Page" finished-at="2020-08-09T16:28:53 IST">
+        <test-method status="PASS" signature="CheckNavigationToBrowseQuestion()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@6fc6f14e]" name="CheckNavigationToBrowseQuestion" duration-ms="4765" started-at="2020-08-10T19:56:58 IST" description="Verify navigation to Questions Page" finished-at="2020-08-10T19:57:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckNavigationToBrowseQuestion -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@3632be31]" name="tearDown" is-config="true" duration-ms="628" started-at="2020-08-09T16:28:53 IST" finished-at="2020-08-09T16:28:54 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="646" started-at="2020-08-10T19:57:03 IST" finished-at="2020-08-10T19:57:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@3632be31]" name="setup" is-config="true" duration-ms="9021" started-at="2020-08-09T16:28:54 IST" finished-at="2020-08-09T16:29:03 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@6fc6f14e]" name="setup" is-config="true" duration-ms="12269" started-at="2020-08-10T19:57:03 IST" finished-at="2020-08-10T19:57:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StackOverflowPageTitleTest()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@3632be31]" name="StackOverflowPageTitleTest" duration-ms="8" started-at="2020-08-09T16:29:03 IST" description="Verify the Title of Stack Overflow" finished-at="2020-08-09T16:29:03 IST">
+        <test-method status="PASS" signature="StackOverflowPageTitleTest()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@6fc6f14e]" name="StackOverflowPageTitleTest" duration-ms="6" started-at="2020-08-10T19:57:16 IST" description="Verify the Title of Stack Overflow" finished-at="2020-08-10T19:57:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StackOverflowPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@3632be31]" name="tearDown" is-config="true" duration-ms="620" started-at="2020-08-09T16:29:03 IST" finished-at="2020-08-09T16:29:04 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stackOverflow.qa.testcases.StackOverFlowPageTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="625" started-at="2020-08-10T19:57:16 IST" finished-at="2020-08-10T19:57:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.stackOverflow.qa.testcases.StackOverFlowPageTest -->
-      <class name="com.stackOverflow.qa.testcases.TagsPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.stackOverflow.qa.testcases.TagsPageTest@2286778]" name="setup" is-config="true" duration-ms="15099" started-at="2020-08-09T16:29:17 IST" finished-at="2020-08-09T16:29:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checkIftagsByNameSuccessful()[pri:0, instance:com.stackOverflow.qa.testcases.TagsPageTest@2286778]" name="checkIftagsByNameSuccessful" duration-ms="445" started-at="2020-08-09T16:29:32 IST" description="Verify if Tag names are sorted when we click on Name filter" finished-at="2020-08-09T16:29:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkIftagsByNameSuccessful -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stackOverflow.qa.testcases.TagsPageTest@2286778]" name="tearDown" is-config="true" duration-ms="626" started-at="2020-08-09T16:29:33 IST" finished-at="2020-08-09T16:29:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.stackOverflow.qa.testcases.TagsPageTest@2286778]" name="setup" is-config="true" duration-ms="14672" started-at="2020-08-09T16:29:34 IST" finished-at="2020-08-09T16:29:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getTagNameWithMaxQuestions()[pri:0, instance:com.stackOverflow.qa.testcases.TagsPageTest@2286778]" name="getTagNameWithMaxQuestions" duration-ms="3930" started-at="2020-08-09T16:29:48 IST" description="Verify that the tag with Maximum number of questions is &lt;.htaccess&gt; and prints it in the console" finished-at="2020-08-09T16:29:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTagNameWithMaxQuestions -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stackOverflow.qa.testcases.TagsPageTest@2286778]" name="tearDown" is-config="true" duration-ms="640" started-at="2020-08-09T16:29:52 IST" finished-at="2020-08-09T16:29:53 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.stackOverflow.qa.testcases.TagsPageTest -->
     </test> <!-- Regression Suite -->
   </suite> <!-- StackOverflow Automation Test Suite -->
 </testng-results>

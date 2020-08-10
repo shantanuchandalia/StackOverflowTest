@@ -47,10 +47,10 @@ public class TagsPageTest extends TestBase{
 		tagsPage.getTagsKeyValue();
 		String key = tagsPage.getkeyWithMaxValue();
 		Assert.assertEquals(key, ".htaccess" );
-		System.out.println();
+		System.out.println("**********");
 		System.out.println("Key with Maximum value : " + tagsPage.getkeyWithMaxValue()) ;
 		System.out.println("Maximum value : " +tagsPage.getMaxValue());
-		System.out.println();
+		System.out.println("**********");
 	}
 	
 	@AfterMethod

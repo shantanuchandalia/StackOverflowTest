@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -52,23 +53,18 @@ public class TestBase {
 	public static void initialization()
 	{
 		String browserName = properties.getProperty("browser");
-		//String chromePath = "C:\\Users\\shantanu\\eclipse-workspace\\TestAutomationFTRPoker\\src\\main\\java\\com\\testAutomationTest\\QA\\config\\chromedriver.exe";
-		if(browserName.equals("chrome"))
+		if(browserName.equalsIgnoreCase("chrome") || browserName.equalsIgnoreCase("google chrome") )
 		{
 			WebDriverManager.chromedriver().setup();
-			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("start-maximized"); 
-			chromeOptions.addArguments("enable-automation"); 
-			chromeOptions.addArguments("--no-sandbox"); 
-			chromeOptions.addArguments("--disable-infobars");
-			chromeOptions.addArguments("--disable-dev-shm-usage");
-			chromeOptions.addArguments("--disable-browser-side-navigation"); 
-			chromeOptions.addArguments("--disable-gpu"); 
-			driver = new ChromeDriver(chromeOptions); 
-		} else if(browserName.equals("FF"))
+			driver = new ChromeDriver(); 
+		} else if(browserName.equalsIgnoreCase("ff") || browserName.equalsIgnoreCase("firefox"))
 		{
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
+		} else if(browserName.equalsIgnoreCase("edge"))
+		{
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
 		}
 		
 		e_driver = new EventFiringWebDriver(driver);
@@ -87,7 +83,7 @@ public class TestBase {
 	}
 
 
-	public WebDriver getDriver() {
+	public static WebDriver getDriver() {
 		// TODO Auto-generated method stub
 		return driver;
 	}
