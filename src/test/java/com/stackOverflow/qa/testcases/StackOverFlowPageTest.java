@@ -32,7 +32,7 @@ public class StackOverFlowPageTest extends TestBase{
 	public void StackOverflowPageTitleTest()
 	{
 		String title = stackoverflowpage.validateStackOverFlowTitle();
-		Assert.assertEquals(title, "Stack Overflow - Where Developers Learn, Share, & Build Careers" );
+		Assert.assertEquals(title, "Stack Overflow - Where Developers Learn, Share, & Build Careers[Deliberately Failing one test]" );
 	}
 	
 	@Test(description = "Verify navigation to Questions Page")
